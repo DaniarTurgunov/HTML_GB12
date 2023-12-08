@@ -10,7 +10,7 @@
         scroll-behavior: smooth;
         text-rendering: optimizeSpeed;
         background: #ffffff;
-        verflow-x: hidden;
+        overflow-x: hidden;
     }
     
     img {
@@ -650,6 +650,9 @@
     }
     
     @media (max-width: 1024px) {
+        body {
+            overflow-x: hidden;
+        }
         .container {
             width: 736px;
         }
@@ -745,6 +748,9 @@
     }
     
     @media (min-width:320px) and (max-width:767px) {
+        body {
+            overflow-x: hidden;
+        }
         .container {
             width: 359px;
         }
